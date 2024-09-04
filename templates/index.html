@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Darllan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Darllan - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou Darllan, um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em HTML, CSS, JavaScript e frameworks modernos.</p>
+        <img src="{{ url_for('static', filename='img/img.png') }}" alt="Imagem de Darllan">
+    </section>
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p>Descrição do Projeto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <p>Descrição do Projeto 2.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Email: darllan@example.com</p>
+    </section>
+    <footer>
+        <p>© 2024 Darllan. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
